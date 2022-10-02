@@ -17,7 +17,7 @@
     	<tr th:each="country : ${country_list}">
     		<td th:text=${country.id}></td>
     		<td><a th:href="@{/view/{id} (id=${country.id})}"><span th:text=${country.name}></span></a></td>
-    		<td><a th:href="@{/update/{id} (id=${country.id})}">Update</a></td>
+    		<td><a th:href="@{/update/{id} (id=${country.id})}">Update111</a></td>
     		<td><a th:href="@{/delete/{id} (id=${country.id})}">Delete</a></td>
     	</tr>
     </tbody>
